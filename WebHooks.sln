@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31105.61
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHooks.Service", "WebHooks.Service\WebHooks.Service.csproj", "{AD7069F8-7C95-4E27-9853-897A755CDCB1}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHooks.DAL", "WebHooks.DAL\WebHooks.DAL.csproj", "{F4E1DA75-9199-423B-8C01-E353139084D4}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHooks.BLL", "WebHooks.BLL\WebHooks.BLL.csproj", "{6398FAB3-7611-482F-BBDA-6AF4CACFA991}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebHooks.Worker", "WebHooks.Worker\WebHooks.Worker.csproj", "{289FB00D-22C1-4F55-925D-6AABCDF5D390}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD7069F8-7C95-4E27-9853-897A755CDCB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD7069F8-7C95-4E27-9853-897A755CDCB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD7069F8-7C95-4E27-9853-897A755CDCB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD7069F8-7C95-4E27-9853-897A755CDCB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4E1DA75-9199-423B-8C01-E353139084D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4E1DA75-9199-423B-8C01-E353139084D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4E1DA75-9199-423B-8C01-E353139084D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4E1DA75-9199-423B-8C01-E353139084D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6398FAB3-7611-482F-BBDA-6AF4CACFA991}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6398FAB3-7611-482F-BBDA-6AF4CACFA991}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6398FAB3-7611-482F-BBDA-6AF4CACFA991}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6398FAB3-7611-482F-BBDA-6AF4CACFA991}.Release|Any CPU.Build.0 = Release|Any CPU
+		{289FB00D-22C1-4F55-925D-6AABCDF5D390}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{289FB00D-22C1-4F55-925D-6AABCDF5D390}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{289FB00D-22C1-4F55-925D-6AABCDF5D390}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{289FB00D-22C1-4F55-925D-6AABCDF5D390}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {79E581D3-1275-4D0A-AC06-F59CCD0D078E}
+	EndGlobalSection
+EndGlobal
